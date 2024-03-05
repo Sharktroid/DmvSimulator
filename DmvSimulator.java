@@ -11,6 +11,6 @@ public class DmvSimulator {
             System.out.println(String.format("Number %d", ((num + number) % 100) + 1));
             Thread.sleep(100);
         }
-        System.out.println("I\'m sorry, you don\'t have the required paperwork");
+        System.out.println("I\'m sorry, you don\'t have the required paperwork. Haha imagine waiting all this time for nothing!");
     }
 }
