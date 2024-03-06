@@ -13,6 +13,12 @@ public class DmvSimulator {
             System.out.printf("Number %d%n", ((num + number) % numbers) + 1);
             Thread.sleep(100);
         }
-        System.out.println("I'm sorry, you don't have the required paperwork. Haha imagine waiting all this time for nothing!\nmuhhahahahahahahahaahhahahahaha");
+
+        if (rng.nextInt(100) == 0) {
+            System.out.println("You have all of the required paperwork. You are all set!");
+        }
+        else {
+            System.out.println("I'm sorry, you don't have the required paperwork. Haha, imagine waiting all this time for nothing!\nMuhhahahahahahahahaahhahahahaha");
+        }
     }
 }
